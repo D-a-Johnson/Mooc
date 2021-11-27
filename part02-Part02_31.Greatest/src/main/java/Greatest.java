@@ -3,8 +3,15 @@ public class Greatest {
 
     public static int greatest(int number1, int number2, int number3) {
         //write some code here
-
-        return -1;
+        int greater = 0;
+        if (number1 < number3 && number2 < number3) {
+            greater = number3;
+        } else if (number1 < number2 && number3 < number2) {
+            greater = number2;
+        } else {
+            greater = number1;
+        }
+        return greater;
     }
 
     public static void main(String[] args) {
