@@ -5,6 +5,13 @@ public class Sum {
 
     public static void main(String[] args) {
         // Try your method here
+        ArrayList<Integer> numbers = new ArrayList<>();
     }
-
+    public static int sum(ArrayList<Integer> numbers) {
+        int sum = 0;
+        for (int i = 0; i < numbers.size(); i++) {
+            sum += numbers.get(i);
+        }
+        return sum;
+    }
 }
