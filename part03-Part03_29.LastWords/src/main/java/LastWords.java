@@ -10,10 +10,8 @@ public class LastWords {
             if (input.equals("")) {
                 break;
             }
-        
             String[] pieces = input.split(" ");
             System.out.println(pieces[pieces.length - 1]);
         }
-
     }
 }
