@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class LastWords {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         while (true) {
-            String input = scanner.nextLine();
+            String input = scan.nextLine();
             if (input.equals("")) {
                 break;
             }
