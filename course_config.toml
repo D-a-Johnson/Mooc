@@ -447,6 +447,10 @@ checksum = '297c41bc44aeddb5a2c0823eb63caaef'
 id = 83224
 checksum = 'b9657a23fc62195f51f7a7f4b50f2d9b'
 
+[exercises."part04-Part04_10.Song"]
+id = 85612
+checksum = 'a8d7ceba22de8084addb0512ecf0edcd'
+
 [exercises."part04-Part04_11.Film"]
 id = 83226
 checksum = '5db592523686c611b09c0bd4363af6aa'
